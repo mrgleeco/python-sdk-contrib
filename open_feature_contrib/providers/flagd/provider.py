@@ -26,7 +26,7 @@ from numbers import Number
 
 import requests
 from open_feature.evaluation_context import EvaluationContext
-from open_feature.error_code import ErrorCode
+from open_feature.exception import ErrorCode
 from open_feature.flag_evaluation import FlagEvaluationDetails
 from open_feature.provider import AbstractProvider
 
